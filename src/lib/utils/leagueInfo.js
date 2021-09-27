@@ -49,7 +49,7 @@ export const managers = [
     "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     "name": "Michael W.",
     "location": "Charlotte, NC", // (optional)
-    "bio": "Making maps so I can give my wife and cats the life they deserve. As for fantasy, "here's a guy that has no idea what he's doing."  - Chris Collinsworth",
+    "bio": "Making maps so I can give my wife and cats the life they deserve. As for fantasy, here's a guy that has no idea what he's doing.  - Chris Collinsworth",
     "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
     "fantasyStart": 2007, // (optional) when did the manager start playing fantasy football
     "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
