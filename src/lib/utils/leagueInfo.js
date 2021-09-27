@@ -24,37 +24,37 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-    // {
-    //   "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Andrew C.",
-    //   "location": "NC", // (optional)
-    //   "bio": "3 dogs and my fish run my life with fantasy football and work dabbled in for enjoyment",
-    //   "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-    //   "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "favoritePlayer": 7525, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Rookie or bust",
-    //   "tradingScale": 10, // 1 - 10
-    //   "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-    // {
-    //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    //   "name": "Michael W.",
-    //   "location": "Charlotte, NC", // (optional)
-    //   "bio": "Making maps so I can give my wife and cats the life they deserve. As for fantasy, "here's a guy that has no idea what he's doing."  - Chris Collinsworth",
-    //   "fantasyStart": 2007, // (optional) when did the manager start playing fantasy football
-    //   "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    //   "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    //   "favoritePlayer": 5017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    //   "philosophy": "Young core, some vets",
-    //   "tradingScale": 8, // 1 - 10
-    //   "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
+    {
+    "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    "name": "Andrew C.",
+    "location": "NC", // (optional)
+    "bio": "3 dogs and my fish run my life with fantasy football and work dabbled in for enjoyment",
+    "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+    "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
+    "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    "favoritePlayer": 7525, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    "philosophy": "Rookie or bust",
+    "tradingScale": 10, // 1 - 10
+    "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
+    {
+    "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    "name": "Michael W.",
+    "location": "Charlotte, NC", // (optional)
+    "bio": "Making maps so I can give my wife and cats the life they deserve. As for fantasy, "here's a guy that has no idea what he's doing."  - Chris Collinsworth",
+    "fantasyStart": 2007, // (optional) when did the manager start playing fantasy football
+    "favoriteTeam": "cin", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    "favoritePlayer": 5017, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+    "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    "philosophy": "Young core, some vets",
+    "tradingScale": 8, // 1 - 10
+    "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    },
     // {
     //   "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
