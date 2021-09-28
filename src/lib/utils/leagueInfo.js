@@ -25,7 +25,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
   {
-    "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    "roster": 0,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     "name": "Andrew C.",
     "location": "NC", // (optional)
     "bio": "3 dogs and my fish run my life with fantasy football and work dabbled in for enjoyment",
@@ -46,7 +46,7 @@ export const managers = [
     "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   },
   {
-    "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     "name": "Michael W.",
     "location": "Charlotte, NC", // (optional)
     "bio": "Making maps so I can give my wife and cats the life they deserve. As for fantasy, here's a guy that has no idea what he's doing.  - Chris Collinsworth",
